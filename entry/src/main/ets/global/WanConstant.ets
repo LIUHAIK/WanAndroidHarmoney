@@ -10,19 +10,19 @@ export class WanConstant {
   static PERFERENCES_CONFIG = {
     name: 'WanCache'
   }
-  static readonly AVATAR_MAP: { [key: number]: Resource } = {
-    1: $r('app.media.avatar1'),
-    2: $r('app.media.avatar2'),
-    3: $r('app.media.avatar3'),
-    4: $r('app.media.avatar4'),
-    5: $r('app.media.avatar5'),
-    6: $r('app.media.avatar6'),
-    7: $r('app.media.avatar7'),
-    8: $r('app.media.avatar8'),
-    9: $r('app.media.avatar9'),
-    10: $r('app.media.avatar10'),
-    11: $r('app.media.avatar11'),
-    12: $r('app.media.avatar12'),
+  static readonly AVATAR_MAP: ESObject = [
+     $r('app.media.avatar1'),
+     $r('app.media.avatar2'),
+     $r('app.media.avatar3'),
+     $r('app.media.avatar4'),
+     $r('app.media.avatar5'),
+    $r('app.media.avatar6'),
+    $r('app.media.avatar7'),
+    $r('app.media.avatar8'),
+    $r('app.media.avatar9'),
+    $r('app.media.avatar10'),
+     $r('app.media.avatar11'),
+     $r('app.media.avatar12'),
     13: $r('app.media.avatar13'),
     14: $r('app.media.avatar14'),
     15: $r('app.media.avatar15'),
@@ -95,10 +95,14 @@ export class WanConstant {
     82: $r('app.media.avatar82'),
     83: $r('app.media.avatar83'),
     84: $r('app.media.avatar84'),
-    85: $r('app.media.avatar85'),
-    86: $r('app.media.avatar86'),
-    87: $r('app.media.avatar87'),
-    88: $r('app.media.avatar88'),
-    89: $r('app.media.avatar89'),
-  }
+     $r('app.media.avatar85'),
+     $r('app.media.avatar86'),
+     $r('app.media.avatar87'),
+     $r('app.media.avatar88'),
+     $r('app.media.avatar89')
+  ]
+}
+
+class ResourceData{
+
 }
