@@ -1,4 +1,5 @@
-后续都在gitee地址修改：https://gitee.com/liu-haikang/wan-android-harmoney.git
+# 后续都在gitee地址修改：https://gitee.com/liu-haikang/wan-android-harmoney.git
+
 <img width="105" alt="ic_app_logo" src="https://github.com/RedRackham-R/WanAndroidHarmoney/assets/22745782/bb255b7e-ce9f-40e9-8c7b-f85b0f7efc32">
 
 # WanAndroidHarmoney
